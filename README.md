@@ -1,8 +1,8 @@
-Barbu Maria-Alexandra, 325CD 
-Tema 2- STRINGURI 
+## Barbu Maria-Alexandra, 325CD 
+# Tema 2- STRINGURI 
 -------------------------------------------------------------------------------
 
-Binary to Hexadecimal:
+## Binary to Hexadecimal:
 
 	Am creat noi variabile in section.data pentru a stoca acolo o copie a 
 lungimii secventei de biti, restul impartirii la 4 a lungimii sirului de biti,
@@ -25,7 +25,7 @@ decat 10, iar in functie de acestea am convertit numarul obtinut intr-un
 caracter din scrierea hexazecimala (cifre 0-9 si litere a-f), urmarind tabelul
 ASCII. Fiecare caracter de acest tip a fost inserat in stringul final.     
 
-Str-Str:
+### Str-Str:
 
 	Una dintre variabilele definite in section.data functioneaza drept contor
 pentru pozitia la care am ajuns in sirul in care se cauta, iar alta drept 
@@ -42,7 +42,7 @@ substringului. Cand se ajunge la finalul sirului "haystack", inseamna ca nu s-a
 gasit vreo aparitie a subsirului, deci functia returneaza lungimea sirului 
 initial + 1. 
 
-Vigenere-Cipher:
+### Vigenere-Cipher:
 
 	Parcurg caracter cu caracter mesajul pe care il doresc criptat. Atata timp
 cat inca nu am ajuns la finalul sirului, verific daca respectivul caracter este
@@ -62,7 +62,7 @@ de "z", sau numarul de deplasari este mai mic si pur si simplu il adun la codul
 ASCII al caracterului. Introduc in sirul final caracterul criptat, incrementez 
 adresa sirului initial.     
 
-Caesar Cipher:
+### Caesar Cipher:
 	
 	Parcurg caracter cu caracter textul pe care il doresc criptat. Atata timp cat
 nu am ajuns la finalul sirului, verific daca caracterul curent este sau nu 
@@ -74,7 +74,7 @@ de "z"), sau este mai mica si pur si simplu adun cheia la codul ASCII al
 caracterului. Criptarea am realizat-o separat pentru litere mari si pentru
 litere mici.  
 
-One Time Pad:
+### One Time Pad:
 
 	Parcurg byte cu byte cheia. Daca nu am ajuns la finalul sirului, parcurg in
 paralel byte cu byte textul. Realizez criptarea (operatia "xor" intre cele doua
