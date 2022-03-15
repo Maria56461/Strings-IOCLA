@@ -4,17 +4,17 @@
 
 ## Binary to Hexadecimal:
 
-	Am creat noi variabile in section.data pentru a stoca acolo o copie a 
+Am creat noi variabile in section.data pentru a stoca acolo o copie a 
 lungimii secventei de biti, restul impartirii la 4 a lungimii sirului de biti,
 doi indecsi pentru a parcurge stringul dat (pe unul dintre ei il voi readuce 
 mereu la valoarea 0 dupa ce formez un grup de 4 biti). 
-	Am impartit, asadar, lungimea sirului primit la 4, am obtinut restul "r" si
+Am impartit, asadar, lungimea sirului primit la 4, am obtinut restul "r" si
 pentru primele "r" caractere din sir am calculat numarul din baza 10 pe care 
 acestea il formeaza, adunand succesiv o variabila "var" initializata la 0 cu 
 puterile lui "2" corespunzatoare bitilor de "1" gasiti. Pe acest numar din baza
 10 l-am "transformat" in caracter, cu ajutorul unui tabel ASCII, si l-am 
 inserat in stringul final.
-	Am incrementat apoi adresa secventei de biti cu "r" pozitii si am pornit sa
+Am incrementat apoi adresa secventei de biti cu "r" pozitii si am pornit sa
 parcurg sirul caracter cu caracter. Folosind unul dintre contori, am format
 grupuri de cate 4 biti si mereu cand am gasit un caracter de "1" am adaugat
 variabilei "var" (initializata la 0 de fiecare data la inceputul unui nou grup
@@ -27,7 +27,7 @@ ASCII. Fiecare caracter de acest tip a fost inserat in stringul final.
 
 ### Str-Str:
 
-	Una dintre variabilele definite in section.data functioneaza drept contor
+Una dintre variabilele definite in section.data functioneaza drept contor
 pentru pozitia la care am ajuns in sirul in care se cauta, iar alta drept 
 contor pentru pozitia la care am ajuns in sirul cautat. Se parcurge fiecare 
 caracter din sirul "haystack". Atata timp cat nu se ajunge la finalul sirului,
@@ -44,7 +44,7 @@ initial + 1.
 
 ### Vigenere-Cipher:
 
-	Parcurg caracter cu caracter mesajul pe care il doresc criptat. Atata timp
+Parcurg caracter cu caracter mesajul pe care il doresc criptat. Atata timp
 cat inca nu am ajuns la finalul sirului, verific daca respectivul caracter este
 litera mica/mare sau nu este litera (dupa codul sau ASCII). Daca nu este
 litera, il introduc in sirul final. Daca este litera, impart contorul la care
