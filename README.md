@@ -43,7 +43,6 @@ gasit vreo aparitie a subsirului, deci functia returneaza lungimea sirului
 initial + 1. 
 
 ### Vigenere-Cipher:
-
 Parcurg caracter cu caracter mesajul pe care il doresc criptat. Atata timp
 cat inca nu am ajuns la finalul sirului, verific daca respectivul caracter este
 litera mica/mare sau nu este litera (dupa codul sau ASCII). Daca nu este
@@ -63,8 +62,7 @@ ASCII al caracterului. Introduc in sirul final caracterul criptat, incrementez
 adresa sirului initial.     
 
 ### Caesar Cipher:
-	
-	Parcurg caracter cu caracter textul pe care il doresc criptat. Atata timp cat
+Parcurg caracter cu caracter textul pe care il doresc criptat. Atata timp cat
 nu am ajuns la finalul sirului, verific daca caracterul curent este sau nu 
 litera mica/ mare. Impart cheia la 26 (numarul de litere din alfabet) si 
 consider ca noua cheie restul acestei impartiri. Consider doua cazuri, similare
@@ -76,7 +74,7 @@ litere mici.
 
 ### One Time Pad:
 
-	Parcurg byte cu byte cheia. Daca nu am ajuns la finalul sirului, parcurg in
+Parcurg byte cu byte cheia. Daca nu am ajuns la finalul sirului, parcurg in
 paralel byte cu byte textul. Realizez criptarea (operatia "xor" intre cele doua
 caractere) si incrementez mereu contorul si adresa curenta in fiecare sir.  
 
